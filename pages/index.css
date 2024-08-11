@@ -9,10 +9,14 @@
 
 .header {
     background: #fff;
-    background-image: url("/images/se_project_2_files/background_header.svg");
+    background-image: url("../images/se_project_2_files/background_header.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: auto;
 }
 
 .nav__logo {
@@ -38,11 +42,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-}
-
-.header {
-    height: 800px;
-    width: auto;
 }
 
 .header__title {
@@ -88,7 +87,7 @@
 }
 
 .header__footer {
-    margin-left: 80px;
+    margin-right: 80px;
     margin-bottom: 40px;
     font-family: "Inter";
     font-style: normal;
@@ -96,4 +95,17 @@
     font-size: 16px;
     line-height: 30px;
     color: #838383;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__paragraph {
+    line-height: 1;
+    padding: 30px 80px 40px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
 }
