@@ -27,10 +27,16 @@
                         class="nav__logo"
                     />
                     <ul class="nav__links">
-                        <li class="nav__link">Recipes</li>
-                        <li class="nav__link">Book a Table</li>
-                        <li class="nav__link">Menu</li>
-                        <li class="nav__link">Contacts</li>
+                        <li class="nav__link">
+                            <a href="#recipes">Recipes</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#BookATable">Book a Table</a>
+                        </li>
+                        <li class="nav__link"><a href="#Menu">Menu</a></li>
+                        <li class="nav__link">
+                            <a href="#Contacts">Contacts</a>
+                        </li>
                     </ul>
                 </nav>
                 <h1 class="header__title">
@@ -49,23 +55,52 @@
                     alt="Coffeshop Interior"
                 />
                 <div class="header__footer">
-                    <p class="header__paragraph">Hours:</p>
+                    <div class="header__hours">
+                        <p class="header__paragraph">Hours:</p>
+                        <p class="header__paragraph">
+                            Monday – Friday (10:00 – 19:00)
+                        </p>
+                        <p class="header__paragraph">
+                            Saturday – Sunday (11:00 – 18:00)
+                        </p>
+                    </div>
                     <p class="header__paragraph">
-                        Monday – Friday (10:00 – 19:00)
+                        200 Success Avenue, The Town of Triple Peaks
                     </p>
-                    <p class="header__paragraph">
-                        Saturday – Sunday (11:00 – 18:00)
-
-                        <div class="address">
-                            <p class="header__paragraph">
-                                200 Success Avenue, The Town of Triple Peaks
-                            </p>
-                        </div>
-                    </li>
                 </div>
             </header>
             <main class="content">
-                <section class="recipes"></section>
+                <section class="recipes" id="recipes">
+                    <h1 class="recipes__title">Recipes</h1>
+                    <h2 class="recipes__subtitle">
+                        Check out some recipes we've collected for your
+                        home-brewing convenience:
+                    </h2>
+                    <div class="recipes__videos">
+                        <div>
+                            <iframe
+                                class="recipes__iframe"
+                                src="https://www.youtube.com/watch?v=j6VlT_jUVPc "
+                                title="Aeropress Recipe"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            ></iframe>
+                            <p class="recipes__video-caption">
+                                Aeropress recipe ~5 min
+                            </p>
+                        </div>
+                        <div>
+                            <iframe
+                                class="recipes__iframe"
+                                src="https://www.youtube.com/watch?v=st571DYYTR8"
+                                title="French Press"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            ></iframe>
+                            <p class="recipes__video-caption">
+                                French press recipe~15 min
+                            </p>
+                        </div>
+                    </div>
+                </section>
                 <section class="reservations"></section>
                 <section class="menu"></section>
                 <section class="about"></section>
