@@ -164,6 +164,7 @@
 
 .reservation__title {
     padding-top: 100px;
+    margin-bottom: 80px;
     text-align: center;
     font-family: Inter;
     font-style: normal;
@@ -174,8 +175,6 @@
 }
 
 .reservation__form {
-    margin-top: 80px;
-    padding-bottom: 120px;
     display: flex;
     justify-content: center;
 }
@@ -195,6 +194,8 @@
     font-size: 16px;
     line-height: 20px;
     color: #000;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .reservation__form_input {
@@ -222,6 +223,9 @@
     line-height: 20px;
     color: #fff;
     height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .reservation__form_button:hover {
@@ -234,4 +238,5 @@
     flex-direction: row-reverse;
     justify-content: center;
     gap: 12px;
+    margin-bottom: 120px;
 }
