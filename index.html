@@ -8,7 +8,10 @@
         <meta name="keywords" content="TripleTen, coffee, project" />
         <link rel="stylesheet" href="./pages/index.css" />
         <link rel="stylesheet" href="./vendor/normalize.css" />
-        <link rel="icon" href="favicon.ico" />
+        <link
+            rel="icon"
+            href="/Users/clint/se_project_coffeeshop/favicon.ico"
+        />
         <title>Coffee Shop</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,7 +34,7 @@
                             <a href="#recipes" class="nav__link">Recipes</a>
                         </li>
                         <li>
-                            <!---  <a href="#BookATable" class="nav__link"> </a> -->
+                            <a href="#BookATable" class="nav__link"> </a>
                             Book a Table
                         </li>
                         <li>
@@ -105,7 +108,59 @@
                         </div>
                     </div>
                 </section>
-                <section class="reservations" id="#BookATable"></section>
+                <section class="reservations" id="#BookATable">
+                    <h2 class="reservation__title">Book a Table</h2>
+                    <form class="reservation__form">
+                        <fieldset class="form__fieldset">
+                            <label class="form__label" for="name">Name*</label>
+                            <input
+                                class="form__input"
+                                id="name"
+                                placeholder="Name Surname"
+                            />
+                            <label class="form__label" for="guests"
+                                >Number of Guests*</label
+                            >
+                            <input
+                                class="form__input"
+                                id="guests"
+                                placeholder="1-8"
+                            />
+                            <label
+                                class="form__label"
+                                for="date"
+                                value="datetime-local"
+                                >Date & time*</label
+                            >
+                            <input
+                                class="form__input"
+                                id="date"
+                                type="datetime-local"
+                            />
+                            <label class="form__label" for="email"
+                                >Your email*</label
+                            >
+                            <input
+                                class="form__input"
+                                id="email"
+                                placeholder="email@email.com"
+                            />
+                            <button type="submit" class="form__button">
+                                Book a Table
+                            </button>
+                            <label class="form__checkbox2">
+                                <input
+                                    type="checkbox"
+                                    id="myCheckbox"
+                                    class="form__checkbox"
+                                />
+                                <label for="myCheckbox"
+                                    >I agree with the terms of use</label
+                                >
+                            </label>
+                        </fieldset>
+                    </form>
+                </section>
                 <section class="menu" id="#Menu"></section>
                 <section class="about" id="#Contacts"></section>
             </main>
