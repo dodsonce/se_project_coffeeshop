@@ -184,6 +184,7 @@
     display: flex;
     align-items: stretch;
     flex-direction: column;
+    border: none;
 }
 
 .form__label {
@@ -235,4 +236,5 @@
 .form__checkbox2 {
     display: flex;
     gap: 12px;
+    justify-content: center;
 }
