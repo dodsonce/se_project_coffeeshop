@@ -105,32 +105,31 @@
                         </div>
                     </div>
                 </section>
-                <section class="reservations" id="#BookATable">
+                <section class="reservation" id="#BookATable">
                     <h2 class="reservation__title">Book a Table</h2>
                     <form class="reservation__form">
-                        <fieldset class="form__fieldset">
-                            <label class="form__label" for="name">Name*</label>
+                        <fieldset class="reservation__form_fieldset">
+                            <label class="reservation__form_label" for="name"
+                                >Name*</label
+                            >
                             <input
-                                class="form__input"
+                                class="reservation__form_input"
                                 id="name"
                                 placeholder="Name Surname"
                             />
-                            <label class="form__label" for="guests"
+                            <label class="reservation__form_label" for="guests"
                                 >Number of Guests*</label
                             >
                             <input
-                                class="form__input"
+                                class="reservation__form_input"
                                 id="guests"
                                 placeholder="1-8"
                             />
-                            <label
-                                class="form__label"
-                                for="date"
-                                value="datetime-local"
+                            <label class="reservation__form_label" for="date"
                                 >Date & time*</label
                             >
                             <input
-                                class="form__input"
+                                class="reservation__form_input"
                                 id="date"
                                 type="datetime-local"
                             />
@@ -138,22 +137,26 @@
                                 >Your email*</label
                             >
                             <input
-                                class="form__input"
+                                class="reservation__form_input"
                                 id="email"
                                 placeholder="email@email.com"
                             />
-                            <button type="submit" class="form__button">
+                            <button
+                                type="submit"
+                                class="reservation__form_button"
+                            >
                                 Book a Table
                             </button>
-                            <label class="form__checkbox2">
+
+                            <label
+                                for="myCheckbox"
+                                class="reservation__form_checkbox"
+                                >I agree with the terms of use
                                 <input
                                     type="checkbox"
                                     id="myCheckbox"
                                     class="form__checkbox"
                                 />
-                                <label for="myCheckbox"
-                                    >I agree with the terms of use</label
-                                >
                             </label>
                         </fieldset>
                     </form>
