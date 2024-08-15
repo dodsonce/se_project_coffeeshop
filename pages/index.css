@@ -175,6 +175,10 @@
 }
 
 .reservation__form {
+    margin: 0;
+}
+
+.form {
     display: flex;
     justify-content: center;
 }
