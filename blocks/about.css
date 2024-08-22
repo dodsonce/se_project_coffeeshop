@@ -1,0 +1,47 @@
+.about {
+    background-color: #0a2850;
+}
+
+.about__title {
+    padding-top: 100px;
+    padding-left: 80px;
+    max-width: 251px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: gainsboro;
+    position: relative;
+    z-index: 2;
+}
+
+.about__content {
+    padding-top: 119px;
+    padding-bottom: 173px;
+    padding-left: 680px;
+    max-width: 660px;
+    margin: auto;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: gainsboro;
+}
+
+.about__paragraph {
+    margin-bottom: 20px;
+}
+
+.about__circle {
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    border: px solid #1878dc;
+    background-color: #1878dc;
+    position: absolute;
+    z-index: 1;
+    right: 1490px;
+    bottom: -3600px;
+}
