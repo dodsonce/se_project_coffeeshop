@@ -1,6 +1,7 @@
 .card {
     display: flex;
-    margin: 100px;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 .card__title {

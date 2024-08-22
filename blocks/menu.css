@@ -1,5 +1,6 @@
 .menu {
     background-image: url(../images/se_project_2_files/background_menu.svg);
+    max-width: 1600px;
 }
 
 .menu__title {
@@ -22,9 +23,12 @@
     line-height: 30px;
     max-width: 780px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .menu__cards {
     display: flex;
-    padding: 100px;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
 }
