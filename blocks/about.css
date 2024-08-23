@@ -1,10 +1,27 @@
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.6;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
+
 .about {
     background-color: #0a2850;
+    position: relative;
+    overflow: hidden;
 }
 
 .about__title {
-    padding-top: 100px;
-    padding-left: 80px;
+    margin-top: 100px;
+    margin-left: 80px;
     max-width: 251px;
     font-family: "Inter";
     font-style: normal;
@@ -13,7 +30,7 @@
     line-height: 52px;
     color: gainsboro;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .about__content {
@@ -38,10 +55,13 @@
     width: 426px;
     height: 426px;
     border-radius: 50%;
-    border: px solid #1878dc;
     background-color: #1878dc;
     position: absolute;
     z-index: 1;
-    right: 1490px;
-    bottom: -3600px;
+    top: -152px;
+    left: -129px;
+}
+
+.about__circle_animation-blurred {
+    animation: pulsate 1.5s ease-in-out infinite;
 }
