@@ -1,7 +1,9 @@
 .nav__logo {
     position: relative;
-    margin-left: 30px;
-    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 105px;
+    height: 39px;
 }
 .nav {
     display: flex;
@@ -12,11 +14,12 @@
     list-style-type: none;
     display: flex;
     padding: 0;
-    margin: 8px 0 0;
+    margin: 80px 0 0;
     column-gap: 20px;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    color: #000000;
 }

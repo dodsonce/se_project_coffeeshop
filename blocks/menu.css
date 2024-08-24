@@ -6,17 +6,18 @@
 .menu__title {
     padding-top: 100px;
     text-align: center;
-    font-family: "Inter";
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
+    margin: 0;
 }
 
 .menu__subtitle {
     margin-bottom: 100px;
     margin-top: 24px;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -31,4 +32,10 @@
     flex-wrap: wrap;
     gap: 100px;
     justify-content: center;
+}
+
+.menu__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }

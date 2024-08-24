@@ -31,6 +31,7 @@
     line-height: 72px;
     letter-spacing: -0.6px;
     color: black;
+    gap: 28px;
 }
 
 .header__description {
@@ -41,6 +42,7 @@
     line-height: 30px;
     max-width: 683px;
     margin-top: 28px;
+    margin: 0;
 }
 
 .header__image {
@@ -69,5 +71,5 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1px;
+    line-height: 10px;
 }

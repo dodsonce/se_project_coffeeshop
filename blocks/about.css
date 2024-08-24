@@ -4,7 +4,7 @@
         opacity: 0;
     }
     50% {
-        transform: scale(1.1);
+        transform: scale(1);
         opacity: 0.6;
     }
     100% {
@@ -17,18 +17,21 @@
     background-color: #0a2850;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
 }
 
 .about__title {
     margin-top: 100px;
     margin-left: 80px;
+    margin-bottom: auto;
     max-width: 251px;
-    font-family: "Inter";
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
-    color: gainsboro;
+    color: #fff;
     position: relative;
     z-index: 3;
 }
@@ -36,7 +39,7 @@
 .about__content {
     padding-top: 119px;
     padding-bottom: 173px;
-    padding-left: 680px;
+    padding-right: 80px;
     max-width: 660px;
     margin: auto;
     font-family: "Noto Serif";
@@ -44,11 +47,14 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    color: gainsboro;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 .about__paragraph {
     margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 .about__circle {
