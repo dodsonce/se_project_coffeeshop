@@ -65,4 +65,5 @@
     margin: 0;
     padding-bottom: 60px;
     padding-left: 80px;
+    display: flex;
 }
