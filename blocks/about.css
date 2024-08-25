@@ -42,7 +42,7 @@
     padding-right: 80px;
     max-width: 660px;
     margin: auto;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif" "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -68,6 +68,6 @@
     left: -129px;
 }
 
-.about__circle_animation-blurred {
-    animation: pulsate 1.5s ease-in-out infinite;
+.about__circle_animation_blurred {
+    animation: pulsate 1.3s ease-in-out infinite;
 }
