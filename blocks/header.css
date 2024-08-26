@@ -1,6 +1,6 @@
 .header {
     background: #fff;
-    background-image: url("../images/se_project_2_files/background_header.svg");
+    background-image: url(../images/background_header.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +8,8 @@
     flex-direction: column;
     height: 800px;
     width: auto;
-    padding: 30px 80px 40px;
+    padding: 30px 80px 40px 30px;
+    position: relative;
 }
 
 .header__title {
@@ -29,11 +30,8 @@
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 60px;
-    line-height: 72px;
     letter-spacing: -0.6px;
     color: black;
-    gap: 28px;
 }
 
 .header__description {
@@ -73,5 +71,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 10px;
+    line-height: 20px;
+    margin: 0px;
 }

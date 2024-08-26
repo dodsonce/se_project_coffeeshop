@@ -42,7 +42,7 @@
     padding-right: 80px;
     max-width: 660px;
     margin: auto;
-    font-family: "Noto Serif" "Times New Roman", serif;
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -55,6 +55,10 @@
 .about__paragraph {
     margin-bottom: 20px;
     margin-top: 0px;
+}
+
+p:last-child {
+    margin-bottom: 0px;
 }
 
 .about__circle {

@@ -1,6 +1,8 @@
 .menu {
-    background-image: url(../images/se_project_2_files/background_menu.svg);
-    max-width: 1600px;
+    background-image: url(../images/background_menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .menu__title {
@@ -12,11 +14,11 @@
     font-size: 44px;
     line-height: 52px;
     margin: 0;
+    margin-bottom: 24px;
 }
 
 .menu__subtitle {
     margin-bottom: 100px;
-    margin-top: 24px;
     font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;

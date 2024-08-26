@@ -1,7 +1,5 @@
 .nav__logo {
     position: relative;
-    padding-left: 30px;
-    padding-top: 30px;
     width: 105px;
     height: 39px;
 }
@@ -13,9 +11,11 @@
 .nav__links {
     list-style-type: none;
     display: flex;
-    padding: 0;
-    margin: 80px 0 0;
+    padding: 0px;
     column-gap: 20px;
+}
+
+.nav__links {
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
