@@ -34,10 +34,6 @@
     flex-wrap: wrap;
     gap: 100px;
     justify-content: center;
-}
-
-.menu__list {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }

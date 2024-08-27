@@ -54,14 +54,23 @@
     align-content: center;
 }
 
+.footer__social-link {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
 .footer__social-link:hover {
     color: #c1c1c1;
+    transition: 1s ease-in-out;
 }
 
 .footer__copyright {
     position: relative;
     color: white;
-    font-family: "Inter" Arial, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -70,4 +79,10 @@
     padding-bottom: 60px;
     padding-left: 80px;
     display: flex;
+}
+
+.footer__social-icon {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
 }

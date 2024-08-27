@@ -19,6 +19,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .about__title {
@@ -57,7 +58,7 @@
     margin-top: 0px;
 }
 
-p:last-child {
+.about__paragraph--last {
     margin-bottom: 0px;
 }
 

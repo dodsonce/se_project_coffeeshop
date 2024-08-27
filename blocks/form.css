@@ -9,6 +9,8 @@
     flex-direction: column;
     align-items: center;
     border: none;
+    margin: 0;
+    padding: 0;
 }
 
 .form__label {
@@ -50,9 +52,9 @@
     font-size: 16px;
     line-height: 20px;
     color: #fff;
-    height: 52px;
     width: 385px;
     height: 60px;
+    border: none;
 }
 
 .form__button:hover {
@@ -66,4 +68,5 @@
     justify-content: center;
     gap: 12px;
     margin-bottom: 120px;
+    border-radius: 2px;
 }
