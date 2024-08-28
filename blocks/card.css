@@ -27,7 +27,7 @@
     line-height: 20px;
 }
 
-.card__list-item--last {
+.card__list-item:last-child {
     margin-bottom: 0px;
 }
 

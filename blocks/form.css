@@ -62,11 +62,11 @@
     transition: 0.5s ease-in-out;
 }
 
-.form__checkbox {
+.form__label_type_checkbox {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     gap: 12px;
-    margin-bottom: 120px;
     border-radius: 2px;
+    margin: auto;
 }
