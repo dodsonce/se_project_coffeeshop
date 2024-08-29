@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 100px 173px 80px;
+    padding: 100px 80px 173px;
 }
 
 .about__title {
@@ -47,7 +47,7 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-    padding-top: 9px;
+    padding-top: 19px;
 }
 
 .about__paragraph {
